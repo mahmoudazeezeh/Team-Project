@@ -101,3 +101,11 @@
     font-size: 24px;
     cursor: pointer;
   }
+  .theme-toggle,
+  .language-toggle {
+    cursor: pointer;
+  }
+  
+  .current-lang {
+    font-weight: bold;
+  }
