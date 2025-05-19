@@ -143,3 +143,15 @@
   .current-lang {
     font-weight: bold;
   }
+/* Hero Section */
+  .hero {
+
+    padding: 80px 0;
+   
+    position: relative;
+    background-image: url("image/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
