@@ -1,0 +1,23 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+  
+  :root {
+    /* Light Theme Variables */
+    --primary-color: #00a6a6;
+    --secondary-color: #333;
+    --background-color: #fff;
+    --text-color: #555;
+    --border-color: #eee;
+    --card-bg: #fff;
+    --header-bg: #fff;
+    --footer-bg: #333;
+    --footer-text: #fff;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --section-bg: #f9f9f9;
+    --blue-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+  }
