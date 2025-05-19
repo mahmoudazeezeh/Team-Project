@@ -176,7 +176,7 @@
     flex: 1;
     padding-right: 50px;
   }
-  
+
   .hero-content h1 {
     font-size: 42px;
     line-height: 1.2;
@@ -190,4 +190,13 @@
   
   .hero-content p {
     color: var(--secondary-color);
+  }
+  .hero-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    animation: float 3s ease-in-out infinite;
   }
