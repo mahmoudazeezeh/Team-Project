@@ -327,7 +327,10 @@
     box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
   }
   
-  
+  .feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.4);
+  }
   
   
   
