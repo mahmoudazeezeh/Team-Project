@@ -332,6 +332,8 @@
     box-shadow: 0 8px 15px rgba(0, 123, 255, 0.4);
   }
   
-  
+  .feature-icon img {
+    height: 60px;
+  }
   
   
