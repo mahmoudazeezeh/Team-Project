@@ -292,3 +292,31 @@
       transform: translateY(0px);
     }
   }
+
+  /* Features Section */
+  .features .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.8rem;
+  }
+  
+  /* Features Section - Add light blue glow to icons */
+  .feature-icon {
+    margin-bottom: .6rem;
+    position: relative;
+  }
+  
+  .feature-icon i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    filter: drop-shadow(0 0 8px rgba(0, 170, 255, 0.5));
+    transition: all 0.3s ease;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
