@@ -340,3 +340,17 @@
     font-size: 18px;
     margin-bottom: 10px;
   }
+
+  /* About Section */
+  .about .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  
+  
+ 
+  
+ 
+  
