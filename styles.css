@@ -356,5 +356,8 @@
     flex: 1;
   }
   
- 
+  .about-content h2 {
+    text-align: left;
+  }
+  
   
