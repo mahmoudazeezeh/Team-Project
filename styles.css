@@ -383,7 +383,20 @@
     display: none;
   }
   
+  .book-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+   
+    padding: 20px 0;
+    gap: 25px;
+    width: 100%;
+    cursor: grab;
+  }
   
+  .book-slider:active {
+    cursor: grabbing;
+  }
   
   
   
