@@ -750,5 +750,8 @@
     margin-right: 2px;
   }
   
- 
+  .review-card .rating i.far {
+     color: var(--primary-color, #2596be);
+     opacity: 0.5;
+  }
 
