@@ -509,7 +509,23 @@
     text-overflow: ellipsis;
   }
   
+  .author {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
   
+  .price {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .price span {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 5px;
+    font-weight: normal;
+  }
   
   
   
