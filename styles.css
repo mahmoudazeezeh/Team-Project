@@ -744,7 +744,11 @@
     line-height: 1;
   }
   
-
+  .review-card .rating i {
+    color: var(--primary-color, #2596be);
+    font-size: 1rem;
+    margin-right: 2px;
+  }
   
  
 
