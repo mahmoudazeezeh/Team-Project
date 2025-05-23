@@ -364,3 +364,55 @@
     left: 0;
     transform: none;
   }
+
+  /* Featured Books Section */
+  .featured-books {
+    position: relative;
+    padding: 4rem 0;
+  }
+  
+  .featured-books-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .scroll-btn {
+    display: none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+
