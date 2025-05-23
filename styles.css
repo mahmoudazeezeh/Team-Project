@@ -571,7 +571,15 @@
     border-radius: 5px;
   }
   
-  
+  /* Feature Box Section */
+  .feature-books-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 0;
+    scrollbar-width: none; /* Firefox */
+    
+    cursor: grab;
+  }
   
   
   
