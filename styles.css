@@ -754,4 +754,22 @@
      color: var(--primary-color, #2596be);
      opacity: 0.5;
   }
+  /* Digital Book Section - Final version */
+  .digital-book {
+    background-color: var(--section-bg);
+    position: relative;
+    overflow: hidden;
+    padding: 10rem 0;
+    background-image: url("image/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    
+  }
+  
+  
 
