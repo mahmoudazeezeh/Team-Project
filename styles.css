@@ -653,7 +653,9 @@
     gap: 20px;
   }
   
- 
+  .book-container .book-card {
+    width: 100%;
+  }
   
   
   
