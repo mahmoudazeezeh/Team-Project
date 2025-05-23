@@ -608,7 +608,21 @@
     box-shadow: 0 8px 15px rgba(0, 123, 255, 0.4);
   }
   
+  .feature-book-image {
+    height: 250px;
+    overflow: hidden;
+  }
   
+  .feature-book-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-book-card:hover .feature-book-image img {
+    transform: scale(1.05);
+  }
   
   
 
