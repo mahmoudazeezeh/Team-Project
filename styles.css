@@ -420,7 +420,22 @@
     box-shadow: var(--blue-shadow);
   }
   
+  .book-image {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+  }
   
+  .book-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .book-card-inner:hover .book-image img {
+    transform: scale(1.05);
+  }
   
   
   
