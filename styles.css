@@ -690,7 +690,12 @@
     box-shadow: 0 10px 25px var(--primary-color, #2596be);
   }
   
-  
+  .reviewer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
   
   
   
