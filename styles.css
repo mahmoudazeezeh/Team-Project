@@ -673,9 +673,22 @@
     gap: 2rem;
   }
   
- 
+  .review-card {
+    background-color: var(--card-bg, #fff);
+    border-radius: .2rem;
+    padding: 1rem;
+    box-shadow: 0 0 5px var(--primary-color, #2596be);
+    position: relative;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   
-
+  .review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px var(--primary-color, #2596be);
+  }
   
   
   
