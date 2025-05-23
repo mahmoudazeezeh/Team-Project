@@ -729,7 +729,15 @@
     line-height: 1;
   }
   
-  
+  .review-content p {
+    position: relative;
+    font-size: .6rem;
+    line-height: 1.5;
+    color: #555;
+    z-index: 1;
+    margin: 0;
+    padding-top: .1rem;
+  }
   
   
   
