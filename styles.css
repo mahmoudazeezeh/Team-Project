@@ -771,5 +771,13 @@
     
   }
   
-  
+  .digital-book .container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    top:6.5rem;
+    right: 3.1rem;
+    
+  }
 
