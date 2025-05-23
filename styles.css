@@ -400,7 +400,25 @@
   
   
   
+  .book-card {
+    flex: 0 0 auto;
+    width: 220px;
+    transition: all 0.3s ease;
+  }
   
+  .book-card-inner {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px var(--shadow-color);
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .book-card-inner:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--blue-shadow);
+  }
   
   
   
