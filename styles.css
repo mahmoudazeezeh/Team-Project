@@ -593,7 +593,20 @@
     padding: 10px;
   }
   
- 
+  .feature-book-card {
+    width: 200px;
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+  }
+  
+  .feature-book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.4);
+  }
   
   
   
