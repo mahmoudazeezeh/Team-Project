@@ -712,7 +712,10 @@
     color: #333;
   }
   
-  
+  .review-content {
+    position: relative;
+    flex-grow: 1;
+  }
   
   
   
