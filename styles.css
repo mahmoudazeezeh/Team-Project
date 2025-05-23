@@ -581,7 +581,17 @@
     cursor: grab;
   }
   
+  .feature-books-container:active {
+    cursor: grabbing;
+  }
   
+  
+  
+  .feature-books-wrapper {
+    display: inline-flex;
+    gap: 20px;
+    padding: 10px;
+  }
   
  
   
