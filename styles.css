@@ -717,7 +717,17 @@
     flex-grow: 1;
   }
   
-  
+  .quote {
+    position: absolute;
+    top: -6rem;
+    right: 0.8rem;
+    opacity: 0.8;
+    font-size: 4rem;
+    color: var(--border-color, #e0e0e0);
+    font-family: 'Georgia', serif;
+    z-index: 0;
+    line-height: 1;
+  }
   
   
   
