@@ -211,7 +211,14 @@ document.addEventListener("DOMContentLoaded", () => {
     setLanguage(newLanguage)
   })
 
- 
+  // Function to set language
+  function setLanguage(lang) {
+    // Update HTML attributes
+    htmlElement.setAttribute("lang", lang)
+    htmlElement.setAttribute("dir", lang === "ar" ? "rtl" : "ltr")
+
+    // Update toggle text
+    currentLang.textContent = lang.toUpperCase()
 
    
 
