@@ -1061,7 +1061,10 @@ footer {
     justify-content: flex-start;
   }
   
-  
+  [dir="rtl"] .blog-icons a {
+    margin-right: 15px;
+    margin-left: 0;
+  }
   
 
   
