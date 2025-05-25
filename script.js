@@ -343,7 +343,15 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     })
 
-  
+    // If no section is active, set Home as active
+    if (!activeFound) {
+      document.querySelectorAll("nav ul li a").forEach((link) => {
+        link.classList.remove("active")
+        if (link.getAttribute("href") === "#") {
+          link.classList.add("active")
+        }
+      })
+    }
 
 
  
