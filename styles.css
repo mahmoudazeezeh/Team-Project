@@ -1081,7 +1081,121 @@ footer {
     }
   }
   
- 
+  @media (max-width: 992px) {
+    .hero .container,
+    .about .container,
+    .digital-book .container {
+      flex-direction: column;
+    }
+  
+    .hero-content,
+    .about-content,
+    .digital-content {
+      padding-right: 0;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .about-content h2,
+    .digital-content h2 {
+      text-align: center;
+    }
+  
+    .about-content h2:after,
+    .digital-content h2:after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .features .container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .blog-container {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+  
+    .book-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    section {
+      padding: 50px 0;
+    }
+  
+    .mobile-menu-toggle {
+      display: block;
+      z-index: 1002;
+    }
+  
+    nav {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 80%;
+      height: 100vh;
+      background-color: var(--card-bg);
+      z-index: 1001;
+      transition: left 0.3s ease;
+      box-shadow: 2px 0 10px var(--shadow-color);
+      padding: 80px 20px 20px;
+      overflow-y: auto;
+    }
+  
+    nav.active {
+      left: 0;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin: 0 0 20px 0;
+    }
+  
+    .header-icons {
+      display: flex;
+      align-items: center;
+    }
+  
+    .book-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .blog-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .featured-books {
+      padding: 50px 0;
+    }
+  
+    .book-slider {
+      padding: 20px 30px;
+      gap: 15px;
+    }
+  
+    .book-card {
+      width: 180px;
+    }
+  
+    .book-image {
+      height: 250px;
+    }
+  
+    .scroll-btn {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .digital-book {
+      padding: 100px 0;
+      min-height: 400px;
+    }
+  }
   
 
 
