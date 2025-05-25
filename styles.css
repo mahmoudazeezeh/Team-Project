@@ -1066,7 +1066,20 @@ footer {
     margin-left: 0;
   }
   
-
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .container {
+      padding: 0 30px;
+    }
+  
+    .featured-books-wrapper {
+      margin: 0;
+    }
+  
+    .book-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
   
  
   
