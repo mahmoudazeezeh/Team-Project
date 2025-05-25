@@ -320,7 +320,12 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   })
 
+  // Set active menu based on scroll position
+  window.addEventListener("scroll", () => {
+    const scrollPosition = window.scrollY
 
+    // Keep Home active by default unless scrolled to a specific section
+    let activeFound = false
 
   
 
