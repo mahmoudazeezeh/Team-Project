@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "footer.newsletter": "Newsletter",
       "footer.emailPlaceholder": "Enter your email",
       "footer.subscribe": "Subscribe",
-      "footer.copyright": "	&copy; 2025 Book Store. All Rights Reserved.",
+      "footer.copyright": "	© 2025 Book Store. All Rights Reserved.",
     },
     ar: {
       "nav.home": "الرئيسية",
@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "footer.newsletter": "النشرة الإخبارية",
       "footer.emailPlaceholder": "أدخل بريدك الإلكتروني",
       "footer.subscribe": "اشترك",
-      "footer.copyright": "	&copy; 2025 متجر الكتب. جميع الحقوق محفوظة.",
+      "footer.copyright": "	© 2025 متجر الكتب. جميع الحقوق محفوظة.",
     },
   }
 
