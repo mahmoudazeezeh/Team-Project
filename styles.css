@@ -1047,9 +1047,15 @@ footer {
     left: auto;
   }
   
+  [dir="rtl"] .footer-contact p i {
+    margin-left: 10px;
+    margin-right: 0;
+  }
   
-  
- 
+  [dir="rtl"] .social-icons a {
+    margin-left: 10px;
+    margin-right: 0;
+  }
   
 
   
