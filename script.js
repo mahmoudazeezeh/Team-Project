@@ -280,7 +280,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })
 
-
+  // Close menu when clicking outside
+  document.addEventListener("click", (event) => {
+    if (nav.classList.contains("active") && !nav.contains(event.target) && !mobileMenuToggle.contains(event.target)) {
+      nav.classList.remove("active")
+      document.body.classList.remove("menu-open")
+      mobileMenuToggle.querySelector("i").classList.replace("fa-times", "fa-bars")
+    }
+  })
 
  
 
