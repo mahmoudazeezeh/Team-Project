@@ -1018,3 +1018,32 @@ footer {
   text-decoration: underline;
 }
 
+ /* RTL Support for Arabic */
+  [dir="rtl"] {
+    text-align: right;
+  }
+  
+  [dir="rtl"] nav ul li {
+    margin-right: 25px;
+    margin-left: 0;
+  }
+  
+ 
+  
+  
+ 
+  
+  
+  
+ 
+  
+
+  
+  
+  
+
+  
+ 
+  
+
+
