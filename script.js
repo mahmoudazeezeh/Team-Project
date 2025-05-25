@@ -362,5 +362,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })
 
- 
+  // Initialize the page
+  window.dispatchEvent(new Event("scroll"))
 })
