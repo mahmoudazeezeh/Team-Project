@@ -249,6 +249,8 @@ document.addEventListener("DOMContentLoaded", () => {
     themeIcon.classList.replace("fa-moon", "fa-sun")
   }
 
+  themeToggle.addEventListener("click", () => {
+    const currentTheme = htmlElement.getAttribute("data-theme")
 
  
 
