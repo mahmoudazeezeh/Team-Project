@@ -332,7 +332,16 @@ document.addEventListener("DOMContentLoaded", () => {
       const sectionHeight = section.offsetHeight
       const sectionId = section.getAttribute("id")
 
-   
+      if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+        document.querySelectorAll("nav ul li a").forEach((link) => {
+          link.classList.remove("active")
+          if (link.getAttribute("href") === "#" + sectionId) {
+            link.classList.add("active")
+            activeFound = true
+          }
+        })
+      }
+    })
 
   
 
