@@ -1057,7 +1057,9 @@ footer {
     margin-right: 0;
   }
   
-
+  [dir="rtl"] .blog-icons {
+    justify-content: flex-start;
+  }
   
   
   
