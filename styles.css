@@ -1038,7 +1038,14 @@ footer {
     padding-right: 0;
   }
   
- 
+  [dir="rtl"] .about-content h2:after,
+  [dir="rtl"] .digital-content h2:after,
+  [dir="rtl"] .footer-links h3:after,
+  [dir="rtl"] .footer-contact h3:after,
+  [dir="rtl"] .footer-newsletter h3:after {
+    right: 0;
+    left: auto;
+  }
   
   
   
