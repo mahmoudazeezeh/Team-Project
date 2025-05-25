@@ -220,7 +220,21 @@ document.addEventListener("DOMContentLoaded", () => {
     // Update toggle text
     currentLang.textContent = lang.toUpperCase()
 
-   
+    // Update all text elements with translations
+    document.querySelectorAll("[data-lang-key]").forEach((element) => {
+      const key = element.getAttribute("data-lang-key")
+      if (translations[lang] && translations[lang][key]) {
+        if (element.tagName === "INPUT" && element.getAttribute("placeholder")) {
+          element.setAttribute("placeholder", translations[lang][key])
+        } else {
+          element.textContent = translations[lang][key]
+        }
+      }
+    })
+
+    // Save preference
+    localStorage.setItem("language", lang)
+  }
 
   // Theme Toggle
  
