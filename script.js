@@ -327,7 +327,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // Keep Home active by default unless scrolled to a specific section
     let activeFound = false
 
-  
+    document.querySelectorAll("section[id]").forEach((section) => {
+      const sectionTop = section.offsetTop - 100
+      const sectionHeight = section.offsetHeight
+      const sectionId = section.getAttribute("id")
 
    
 
