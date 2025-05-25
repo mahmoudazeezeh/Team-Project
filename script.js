@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "footer.newsletter": "Newsletter",
       "footer.emailPlaceholder": "Enter your email",
       "footer.subscribe": "Subscribe",
-      "footer.copyright": "	© 2025 Book Store. All Rights Reserved.",
+      "footer.copyright": "	&copy; 2025 Book Store. All Rights Reserved.",
     },
     ar: {
       "nav.home": "الرئيسية",
@@ -194,11 +194,22 @@ document.addEventListener("DOMContentLoaded", () => {
       "footer.newsletter": "النشرة الإخبارية",
       "footer.emailPlaceholder": "أدخل بريدك الإلكتروني",
       "footer.subscribe": "اشترك",
-      "footer.copyright": "	© 2025 متجر الكتب. جميع الحقوق محفوظة.",
+      "footer.copyright": "	&copy; 2025 متجر الكتب. جميع الحقوق محفوظة.",
     },
   }
 
+  // Check for saved language preference
+  const savedLang = localStorage.getItem("language") || "en"
 
+  // Set initial language
+  setLanguage(savedLang)
+
+  // Language toggle click handler
+  languageToggle.addEventListener("click", () => {
+    const currentLanguage = htmlElement.getAttribute("lang") || "en"
+    const newLanguage = currentLanguage === "en" ? "ar" : "en"
+    setLanguage(newLanguage)
+  })
 
  
 
