@@ -237,7 +237,18 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Theme Toggle
- 
+  const themeToggle = document.querySelector(".theme-toggle")
+  const themeIcon = themeToggle.querySelector("i")
+
+  // Check for saved theme preference or use device preference
+  const savedTheme = localStorage.getItem("theme")
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches
+
+  if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
+    htmlElement.setAttribute("data-theme", "dark")
+    themeIcon.classList.replace("fa-moon", "fa-sun")
+  }
+
 
  
 
