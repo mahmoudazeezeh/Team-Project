@@ -1033,7 +1033,10 @@ footer {
     margin-left: 0;
   }
   
-  
+  [dir="rtl"] .hero-content {
+    padding-left: 50px;
+    padding-right: 0;
+  }
   
  
   
