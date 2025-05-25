@@ -271,7 +271,14 @@ document.addEventListener("DOMContentLoaded", () => {
     nav.classList.toggle("active")
     document.body.classList.toggle("menu-open")
 
- 
+    // Change icon based on menu state
+    const icon = this.querySelector("i")
+    if (nav.classList.contains("active")) {
+      icon.classList.replace("fa-bars", "fa-times")
+    } else {
+      icon.classList.replace("fa-times", "fa-bars")
+    }
+  })
 
 
 
