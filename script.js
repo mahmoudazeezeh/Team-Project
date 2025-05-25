@@ -263,7 +263,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })
 
+  // Mobile Menu Toggle
+  const mobileMenuToggle = document.querySelector(".mobile-menu-toggle")
+  const nav = document.querySelector("nav")
 
+  mobileMenuToggle.addEventListener("click", function () {
+    nav.classList.toggle("active")
+    document.body.classList.toggle("menu-open")
 
  
 
