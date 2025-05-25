@@ -353,6 +353,14 @@ document.addEventListener("DOMContentLoaded", () => {
       })
     }
 
+    // Add enhanced box shadow to header on scroll
+    const header = document.querySelector("header")
+    if (scrollPosition > 50) {
+      header.style.boxShadow = "0 8px 20px rgba(0, 0, 0, 0.15)"
+    } else {
+      header.style.boxShadow = "var(--nav-shadow)"
+    }
+  })
 
  
 })
